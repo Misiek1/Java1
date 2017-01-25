@@ -8,16 +8,17 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
-import javax.swing.JTextArea;
+//import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.concurrent.TimeUnit;
+//import java.util.concurrent.TimeUnit;
 
 
 public class ButtonPanel extends JPanel implements ActionListener{
-
+	
+	private static final long serialVersionUID = 1L;
 	private JButton zalogujsieButton;
 	private Connection connection; 
 	private JTextField nameField; //pole na nazwê

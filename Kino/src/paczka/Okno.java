@@ -4,6 +4,7 @@ import java.sql.Connection;
 
 public class Okno  extends JFrame {
 
+	private static final long serialVersionUID = 2L;
 		
 	public Okno(Connection con) {
 		super("Rezerwacja filmu");
